@@ -12,3 +12,4 @@ curl -X POST -d '{"port_name": "s'$i'-eth'$j'", "type": "linux-htb", "max_rate":
 this curl command has the same impact as in http://www.openvswitch.org/support/dist-docs/ovs-vsctl.8.txt, example of Quality of Service (QoS) command.
 In comparison to Sieve, this solution is not part of the control plane, but it is a part of the application plane. The following figure depicts the solution architecture:
 
+![alt text](https://github.com/Maiass/QoS/blob/main/QoS.png?raw=true)
